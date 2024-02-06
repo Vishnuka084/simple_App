@@ -13,42 +13,16 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           backgroundColor: Colors.black,
-          body: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  height: 100,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 253, 229, 14),
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                ),
-                Container(
-                  height: 100,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 253, 229, 14),
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                ),
-                Container(
-                  height: 100,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 253, 229, 14),
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                ),
-                Container(
-                  height: 250,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 253, 229, 14),
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                ),
-              ]),
+          body: Column(children: [
+            Container(
+              width: 100,
+              height: 100,
+              decoration: BoxDecoration(
+                color: Colors.greenAccent,
+                borderRadius: BorderRadius.circular(5),
+              ),
+            )
+          ]),
         ),
       ),
     );
